@@ -11,12 +11,7 @@ const Index = () => {
     <SafeAreaView className="bg-primary flex-1">
       {/* <Loader isLoading={loading} /> */}
 
-      <ScrollView
-        contentContainerStyle={{
-          // height: "100%",
-          flexGrow: 1,
-        }}
-      >
+      <ScrollView contentContainerStyle={{ height: "100%" }}>
         <View className="w-full flex justify-center items-center h-full px-4">
           <Image
             source={images.logo}
